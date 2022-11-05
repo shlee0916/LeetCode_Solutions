@@ -36,14 +36,14 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     
-    test1 = sol.longestPalindrome(["ll","lb","bb","bx","xx","lx","xx","lx","ll","xb","bx","lb","bb","lb","bl","bb","bx","xl","lb","xx"])
-    print(test1,26)
+    test1 = sol.longestPalindrome(["ll", "lb", "bb", "bx", "xx", "lx", "xx", "lx", "ll", "xb", "bx", "lb", "bb", "lb", "bl", "bb", "bx", "xl", "lb", "xx"])
+    print(test1, 26)
     assert test1 == 26
     
-    test2 = sol.longestPalindrome(["lc","cl","gg"])
-    print(test2,6)
+    test2 = sol.longestPalindrome(["lc", "cl", "gg"])
+    print(test2, 6)
     assert test2 == 6
     
-    test3 = sol.longestPalindrome(["ab","ty","yt","lc","cl","ab"])
-    print(test3,8)
+    test3 = sol.longestPalindrome(["ab", "ty", "yt", "lc", "cl", "ab"])
+    print(test3, 8)
     assert test3 == 8
