@@ -72,10 +72,10 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     
-    test1 = sol.findWords([["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]],["oath","pea","eat","rain"])
-    print(test1, ["oath","eat"])
-    assert test1 == ["oath","eat"]
+    test1 = sol.findWords([["o", "a", "a", "n"], ["e", "t", "a", "e"], ["i", "h", "k", "r"], ["i", "f", "l", "v"]], ["oath", "pea", "eat", "rain"])
+    print(test1, ["oath", "eat"])
+    assert test1 == ["oath", "eat"]
     
-    test2 = sol.findWords([["a","b"],["c","d"]],["abcb"])
+    test2 = sol.findWords([["a", "b"], ["c", "d"]], ["abcb"])
     print(test2, [])
     assert test2 == []
