@@ -38,6 +38,7 @@ class Solution:
         ROWS, COLS = len(board), len(board[0])
         res, visit = set(), set()
 
+        ### ------------------------------------------ ###
         def dfs(row_idx, col_idx, node, word):
             if (
                 row_idx not in range(ROWS) 
@@ -61,6 +62,7 @@ class Solution:
             dfs(row_idx, col_idx + 1, node, word)
             dfs(row_idx, col_idx - 1, node, word)
             visit.remove((row_idx, col_idx))
+        ### ------------------------------------------ ###
 
         for row_idx in range(ROWS):
             for col_idx in range(COLS):
