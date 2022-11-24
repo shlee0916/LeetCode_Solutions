@@ -23,15 +23,15 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     
-    test1 = sol.merge([[1,3],[2,6],[8,10],[15,18]])
-    print(test1,[[1,6],[8,10],[15,18]])
-    assert test1 == [[1,6],[8,10],[15,18]]
+    test1 = sol.merge([[1, 3], [2, 6], [8, 10], [15, 18]])
+    print(test1, [[1, 6], [8, 10], [15, 18]])
+    assert test1 == [[1, 6], [8, 10], [15, 18]]
     
-    test2 = sol.merge([[1,4],[4,5]])
-    print(test2,[[1,5]])
-    assert test2 == [[1,5]]
+    test2 = sol.merge([[1, 4], [4, 5]])
+    print(test2, [[1, 5]])
+    assert test2 == [[1, 5]]
     
-    test3 = sol.merge([[1,4],[0,4]])
-    print(test3,[[0,4]])
-    assert test3 == [[0,4]]
+    test3 = sol.merge([[1, 4], [0, 4]])
+    print(test3, [[0, 4]])
+    assert test3 == [[0, 4]]
     
