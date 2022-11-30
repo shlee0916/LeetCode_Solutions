@@ -39,14 +39,14 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    test1 = sol.uniqueOccurrences([1,2,2,1,1,3])
-    print(test1,True)
+    test1 = sol.uniqueOccurrences([1, 2, 2, 1, 1, 3])
+    print(test1, True)
     assert test1 == True
 
-    test2 = sol.uniqueOccurrences([1,2])
+    test2 = sol.uniqueOccurrences([1, 2])
     print(test2, False)
     assert test2 == False
 
-    test3 = sol.uniqueOccurrences([-3,0,1,-3,1,1,1,-3,10,0])
+    test3 = sol.uniqueOccurrences([-3, 0, 1, -3, 1, 1, 1, -3, 10, 0])
     print(test3, True)
     assert test3 == True
