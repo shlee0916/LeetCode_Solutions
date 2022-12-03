@@ -24,4 +24,4 @@ if __name__ == "__main__":
     
     test3 = sol.frequencySort("Aabb")
     print(test3, "bbAa")
-    assert "bbAa" == "bbAa"
+    assert test3 == "bbAa"
