@@ -28,9 +28,6 @@ class Solution:
                 visit.add(node)
                 stack.extend([new_node for new_node in graph[node] if new_node not in visit and new_node not in stack])
 
-            if destination in stack:
-                return True
-
         return False
     
     
