@@ -19,6 +19,27 @@ class Solution:
         return result
 
 
+# Easy straight forward solution
+class Solution:
+    def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
+        result = []
+        pivot_num = 0
+
+        for num in nums:
+            if num < pivot:
+                result.append(num)
+            if num == pivot:
+                pivot_num += 1
+
+        result.extend([pivot] * pivot_num)
+
+        for num in nums:
+            if num > pivot:
+                result.append(num)
+
+        return result
+
+
 if __name__ == "__mina__":
     sol = Solution()
 
@@ -27,4 +48,3 @@ if __name__ == "__mina__":
 
     test2 = sol.pivotArray(nums = [-3, 4, 3, 2], pivot = 2)
     assert test2 == [-3, 2, 4, 3]
-    
