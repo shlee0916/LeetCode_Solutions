@@ -47,3 +47,4 @@ class NestedIterator:
 # i, v = NestedIterator(nestedList), []
 # while i.hasNext(): v.append(i.next())
 
+### NO TEST code, I did not implement NestedInteger...
