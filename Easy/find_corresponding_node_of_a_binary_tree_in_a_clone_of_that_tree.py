@@ -27,6 +27,17 @@ class Solution:
             if ori_node.right:
                 que.append((ori_node.right, clone_node.right))
 
+    def getTargetCopy_generator(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+        def iter_tree(node):
+            if node:
+                yield node
+                yield from iter_tree(node.left)
+                yield from iter_tree(node.right)
+
+        for ori_node, clone_node in zip(iter_tree(original), iter_tree(cloned)):
+            if ori_node == target:
+                return clone_node
+
 
 if __name__ == "__main__":
     sol = Solution()
@@ -36,5 +47,8 @@ if __name__ == "__main__":
     clone_target_node = TreeNode(3, TreeNode(6), TreeNode(19))
     test2_clone = TreeNode(7, TreeNode(4), clone_target_node)
     test1 = sol.getTargetCopy(original = test1_ori, cloned = test2_clone, target = target_node)
+    assert test1 == clone_target_node
+    
+    test1 = sol.getTargetCopy_generator(original = test1_ori, cloned = test2_clone, target = target_node)
     assert test1 == clone_target_node
     
