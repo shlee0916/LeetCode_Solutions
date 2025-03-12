@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/892468615/
+https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 '''
 
 from collections import defaultdict

@@ -1,3 +1,7 @@
+'''
+https://leetcode.com/problems/validate-binary-search-tree/description/
+'''
+
 from tkinter.tix import Tree
 from typing import Optional
 

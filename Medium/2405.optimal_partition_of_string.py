@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/optimal-partition-of-string/solutions/?orderBy=most_votes
+https://leetcode.com/problems/optimal-partition-of-string/description/
 '''
 
 class Solution:

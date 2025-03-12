@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/counting-bits/submissions/
+https://leetcode.com/problems/counting-bits/description/
 '''
 from typing import List
 

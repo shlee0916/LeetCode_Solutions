@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/
+https://leetcode.com/problems/time-needed-to-buy-tickets/description/
 '''
 
 from typing import List

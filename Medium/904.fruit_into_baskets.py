@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/fruit-into-baskets/submissions/893291390/
+https://leetcode.com/problems/fruit-into-baskets/description/
 '''
 
 from typing import List

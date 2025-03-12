@@ -1,5 +1,5 @@
 '''
-https://leetcode.com/problems/swap-nodes-in-pairs/submissions/
+https://leetcode.com/problems/swap-nodes-in-pairs/description/
 '''
 from typing import Optional
 

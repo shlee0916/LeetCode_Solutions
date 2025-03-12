@@ -1,5 +1,5 @@
 '''
-https://www.notion.so/shlee0916/165-Compare-Version-Numbers-Medium-Python-86fbf50c15814aec87ae9b97327d2820
+https://leetcode.com/problems/compare-version-numbers/description/
 '''
 
 class Solution:
